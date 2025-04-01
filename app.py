@@ -64,7 +64,7 @@ with col1:
                 </p>""",unsafe_allow_html=True)
     
 with col2:
-    st.image('https://cdn.dribbble.com/userupload/12500996/file/original-b458fe398a6d7f4e9999ce66ec856ff9.gif', use_column_width=True)
+    st.image('https://cdn.dribbble.com/userupload/12500996/file/original-b458fe398a6d7f4e9999ce66ec856ff9.gif', use_container_width=True)
 
 avs.add_vertical_space(10)
 
@@ -82,7 +82,7 @@ with col2:
 
 with col1:
     img1 = Image.open("images/icon1.png")
-    st.image(img1, use_column_width=True)
+    st.image(img1, use_container_width=True)
 
 
 avs.add_vertical_space(10)
@@ -103,7 +103,7 @@ with col1:
 
 with col2:
     img2 = Image.open("images/icon2.png")
-    st.image(img2,use_column_width=True)
+    st.image(img2,use_container_width=True)
     
 avs.add_vertical_space(10)
 
@@ -126,6 +126,6 @@ with col2:
     
 with col1:
     img3 = Image.open("images/icon3.png")
-    st.image(img3, use_column_width=True)
+    st.image(img3, use_container_width=True)
 
 
